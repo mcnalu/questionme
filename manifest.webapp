@@ -1,0 +1,15 @@
+{
+  "name": "Question Me",
+  "description": "Asks questions, gives feedback so you can learn.",
+  "version": "1.0",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Andrew Conway",
+    "url": "http://www.mcnalu.net"
+  },
+  "default_locale": "en",
+  "type": "privileged",
+  "permissions": {
+  "systemXHR": { "description": "Required to make Ajax Calls over the Network" }
+    }
+}
