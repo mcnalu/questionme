@@ -11,5 +11,5 @@ Version: 0.1 (1 Sept 2013)
 
 ## To do:
 * //load from API
-* implement feedback to answers
+* //implement feedback to answers
 * multiple choice answers

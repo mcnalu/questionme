@@ -11,10 +11,15 @@ $(document).ready(function(){
     answer = $("#answer").val();
     console.log("Got to here");
     if(answer == question.correctAnswer) {
-      $("#feedback").html("That's correct!");
-    } else {
-      $("#feedback").html("Wrong, loser!");
+      console.log("Correct answer!");
     }
+    var feedback=question.feedbacks["_default_"];
+    for (a in question.feedbacks) {
+      if(a == answer){
+	feedback = question.feedbacks[a];
+      }
+    }
+    $("#feedback").html(feedback);
   });
 });
 
